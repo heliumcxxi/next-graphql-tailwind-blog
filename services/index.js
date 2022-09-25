@@ -209,6 +209,9 @@ export const getFeaturedPosts = async () => {
   return result.posts;
 };
 
+// accept commentObj
+// make http request to nextJS backend instead of posting query
+// graphCMS allows custom backend interacts with the services and submit comment
 export const submitComment = async (obj) => {
   const result = await fetch("/api/comments", {
     method: "POST",
