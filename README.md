@@ -1,27 +1,22 @@
-# Next.js + Tailwind CSS Example
+[Live App](https://next-graphql-tailwind-blog.vercel.app)
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+# Blog - Next.js + Tailwind CSS + GraphQL API
 
-## Deploy your own
+This project uses [GraphQL](https://graphql.org), [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3)and [hygraph](https://hygraph.com) with Next.js. Reader can access the blog content via the featured / regular / recent and categories post tabs, and leave comments with or without storing their contact info.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Deploy
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+In case of any use of this project, clone this repository or download it, then run **npm install** to install project packages.
 
-## How to use
+    git clone https://github.com/heliumcxxi/next-graphql-tailwind-blog.git
+    npm install
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+\-
+Now in the project directory, you can run the app in the development mode.
+Open [http://localhost:3000](http://localhost:3000/) to view it in the browser.
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+      npm run dev
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github.com/heliumcxxi/next-graphql-tailwind-blog)
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/heliumcxxi/next-graphql-tailwind-blog)
